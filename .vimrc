@@ -1,14 +1,28 @@
 " .vimrc
 "
-" Created by Billy Wilson Arante <arantebillywilson@gmail.com>
-" Last updated on 2017/06/03 PHT
+" Written by Billy Wilson Arante <arantebillywilson@gmail.com>
+" Last updated on 2017/08/21 PHT
 
-set path=**
+set nocompatible
 
 " Syntax highlighting
-syntax off
+"syntax off
+
+" Color schemes
+"colorscheme monokai
+"colorscheme predawn
 
 filetype plugin on
+
+" Search down into sub-folders
+set path+=**
+
+set wildmenu
+
+" Show filename on title bar
+set title
+
+filetype plugin indent on
 
 set modeline
 
@@ -19,20 +33,24 @@ set number
 set rnu
 
 " Vertical line, limits number of char per line
-" set colorcolumn=80
-" highlight colorcolumn ctermbg=lightgrey guibg=lightgrey
+"set colorcolumn=80
+"highlight colorcolumn ctermbg=lightgrey guibg=lightgrey
 
-" C filetype indent
-autocmd FileType *.c setlocal shiftwidth=8 tabstop=8 expandtab
+" Global settings for all files
+set autoindent
+set shiftwidth=8
+set expandtab
+set tabstop=8
+set softtabstop=8
 
-" Python filetype indent
-autocmd FileType *.py setlocal shiftwidth=4 tabstop=4 expandtab
+" PHP custom settings
+autocmd FileType php setlocal ts=4 sts=4 sw=4
 
-" HTML filetype indent
-autocmd FileType *.html setlocal shiftwidth=2 tabstop=2 expandtab
+" JavaScript custom settings
+autocmd FileType javascript setlocal ts=4 sts=4 sw=4
 
-" JavaScript filetype indent
-autocmd FileType *.js setlocal shiftwidth=2 tabstop=2 expandtab
+" Makefile custom settings
+autocmd FileType make setlocal noexpandtab
 
-" PHP filetype indent
-autocmd FileType *.php setlocal shiftwidth=4 tabstop=4 expandtab
+" Removes word wrapping
+set nowrap
