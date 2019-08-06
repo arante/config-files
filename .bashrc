@@ -200,3 +200,5 @@ function parse_git_dirty {
 }
 
 export PS1="\n\u at \h in \W \`parse_git_branch\` \\n\$ "
+
+export PATH="~/.scripts:$PATH"
