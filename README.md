@@ -1,6 +1,6 @@
 # dotfiles
 
-A collection of configuration files.
+A collection of configuration files
 
 ---
-Created by [Billy Arante](https://arantebw.github.io/) from the [Philippines](#)
+Created by [Billy Arante](https://arantebw.github.io/) from the Philippines
