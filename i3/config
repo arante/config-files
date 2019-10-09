@@ -169,3 +169,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# lock screen
+bindsym $mod+Shift+x exec i3lock
