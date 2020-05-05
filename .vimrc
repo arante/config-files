@@ -1,56 +1,62 @@
-" .vimrc
-"
-" Written by Billy Wilson Arante <arantebillywilson@gmail.com>
-" Last updated on 2017/08/21 PHT
-
 set nocompatible
 
-" Syntax highlighting
-"syntax off
+call plug#begin('~/.vim/plugged/')
 
-" Color schemes
-"colorscheme monokai
-"colorscheme predawn
+" plugins
+Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree'
+Plug 'chriskempson/base16-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
+Plug 'terryma/vim-multiple-cursors'
+
+call plug#end()
+
+syntax on
+set number " enable line number
+set rnu " set it to relative
+set background=dark
+let base16colorspace=256
+set termguicolors
+colorscheme base16-oceanicnext
 
 filetype plugin on
 
-" Search down into sub-folders
-set path+=**
+set path+=**  " search down into sub-folders
 
 set wildmenu
 
-" Show filename on title bar
-set title
+set title  " show filename on title bar
 
 filetype plugin indent on
 
 set modeline
 
-" Line numbers
-set number
-
-" Relative line-numbers
-set rnu
-
-" Vertical line, limits number of char per line
-"set colorcolumn=80
-"highlight colorcolumn ctermbg=lightgrey guibg=lightgrey
-
-" Global settings for all files
+" global settings for all files
 set autoindent
-set shiftwidth=8
+set smartindent
+set shiftwidth=4
 set expandtab
-set tabstop=8
-set softtabstop=8
+set tabstop=4
+set softtabstop=4
 
-" PHP custom settings
+" python
+autocmd FileType python setlocal ts=4 sts=4 sw=4
+
+" php
 autocmd FileType php setlocal ts=4 sts=4 sw=4
 
-" JavaScript custom settings
+" javascript
 autocmd FileType javascript setlocal ts=4 sts=4 sw=4
 
-" Makefile custom settings
+" html
+autocmd FileType html setlocal ts=2 sts=2 sw=2
+
+" makefile custom settings
 autocmd FileType make setlocal noexpandtab
 
-" Removes word wrapping
+" removes word wrapping
 set nowrap
+
+" conveniently open/close nerdtree
+map <C-b><C-n> :NERDTreeToggle<CR>
