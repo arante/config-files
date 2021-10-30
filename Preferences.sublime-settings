@@ -1,0 +1,14 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"line_padding_top": 13,
+	"line_padding_bottom": 13,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_face": "Fira Code",
+	"no_liga": false,
+	"remember_full_screen": true,
+	"hot_exit": "disabled"
+}
