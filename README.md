@@ -1,6 +1,3 @@
-# dotfiles
+# configs
 
-A collection of configuration files
-
----
-Created by [Billy Arante](https://arantebw.github.io/) from the Philippines
+A personal collection of configuration files for my laptop/desktop PCs.
