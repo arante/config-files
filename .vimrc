@@ -64,3 +64,6 @@ set nowrap
 
 " Conveniently open/close nerdtree
 map <C-\> :NERDTreeToggle<CR>
+
+" Make the number of characters per line readable
+set colorcolumn=80
