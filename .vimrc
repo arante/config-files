@@ -47,8 +47,9 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 
-" JavaScript
+" JavaScript / TypeScript
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+autocmd FileType typescript setlocal ts=2 sts=2 sw=2
 
 " HTML
 autocmd FileType html setlocal ts=2 sts=2 sw=2
