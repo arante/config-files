@@ -12,10 +12,12 @@ call plug#begin('~/.vim/plugged/')
 " Plugins
 Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'terryma/vim-multiple-cursors'
+Plug 'w0rp/ale'
 
 call plug#end()
 
@@ -42,20 +44,17 @@ set modeline
 " Global settings for all files
 set autoindent
 set smartindent
-set shiftwidth=4
+" For JavaScript/TypeScript, HTML, CSS, JSON, etc.
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set expandtab
-set tabstop=4
-set softtabstop=4
 
-" JavaScript / TypeScript
-autocmd FileType javascript setlocal ts=2 sts=2 sw=2
-autocmd FileType typescript setlocal ts=2 sts=2 sw=2
+" Python
+autocmd FileType py setlocal ts=4 sts=4 sw=4
 
-" HTML
-autocmd FileType html setlocal ts=2 sts=2 sw=2
-
-" CSS
-autocmd FileType css setlocal ts=2 sts=2 sw=2
+" C/C++
+autocmd FileType c,cpp setlocal ts=8 sts=8 sw=8
 
 " Makefile custom settings
 autocmd FileType make setlocal noexpandtab
@@ -63,8 +62,25 @@ autocmd FileType make setlocal noexpandtab
 " Removes word wrapping
 set nowrap
 
+" Make the number of characters per line readable
+set colorcolumn=80
+
+" ESLint as plugging manager
+let g:ale_fixers = {'javascript': ['eslint']}
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
+let g:ale_fix_on_save = 1
+
+"
+" NERDTree Configs
+"
+
+" Show relative line numbers when NERDTree is used
+let g:NERDTreeShowLineNumbers=1
+autocmd BufEnter NERD_* setlocal rnu
+
 " Conveniently open/close nerdtree
 map <C-\> :NERDTreeToggle<CR>
 
-" Make the number of characters per line readable
-set colorcolumn=80
+" Move side panel to the right
+let g:NERDTreeWinPos = "right"
