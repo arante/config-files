@@ -84,3 +84,6 @@ map <C-\> :NERDTreeToggle<CR>
 
 " Move side panel to the right
 let g:NERDTreeWinPos = "right"
+
+" Resize the NERDTree window size
+let g:NERDTreeWinSize=45
