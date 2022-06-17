@@ -21,14 +21,15 @@ Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ryanoasis/vim-devicons'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
+Plug 'mileszs/ack.vim'
+Plug 'ryanoasis/vim-devicons' " always load as the last one
 
 call plug#end()
 
 syntax on
-set number                      " enable line number
-set rnu                         " set it to relative
+set number " enable line number
+set rnu " set it to relative
 set background=dark
 "let base16colorspace=256
 set termguicolors
@@ -36,11 +37,11 @@ colorscheme base16-oceanicnext
 
 filetype plugin on
 
-set path+=**                    " search down into sub-folders
+set path+=** " search down into sub-folders
 
 set wildmenu
 
-set title                       " show filename on title bar
+set title " show filename on title bar
 
 filetype plugin indent on
 
@@ -72,8 +73,8 @@ set colorcolumn=80
 
 " ESLint as plugin manager
 let g:ale_fixers = {'javascript': ['prettier','eslint'], 'typescript': ['prettier','eslint']}
-"let g:ale_sign_error = '❌'
-"let g:ale_sign_warning = '⚠️'
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
 let g:ale_fix_on_save = 1
 
 "
@@ -111,3 +112,29 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 command! -nargs=+ Grep execute 'silent grep! -I -r -n --exclude *.{json,pyc} . -e <args>' | copen | execute 'silent /<args>'
 " shift-control-* Greps for the word under the cursor
 :nmap <leader>g :Grep <c-r>=expand("<cword>")<cr><cr>
+
+" ack.vim --- {{{
+
+" Use ripgrep for searching ⚡️
+" Options include:
+" --vimgrep -> Needed to parse the rg response properly for ack.vim
+" --type-not sql -> Avoid huge sql file dumps as it slows down the search
+" --smart-case -> Search case insensitive if all lowercase pattern, Search case sensitively otherwise
+let g:ackprg = 'rg --vimgrep --type-not sql --smart-case'
+
+" Auto close the Quickfix list after pressing '<enter>' on a list item
+let g:ack_autoclose = 1
+
+" Any empty ack search will search for the work the cursor is on
+let g:ack_use_cword_for_empty_search = 1
+
+" Don't jump to first match
+cnoreabbrev Ack Ack!
+
+" Maps <leader>/ so we're ready to type the search keyword
+nnoremap <Leader>/ :Ack!<Space>
+" }}}
+
+" Navigate quickfix list with ease
+nnoremap <silent> [q :cprevious<CR>
+nnoremap <silent> ]q :cnext<CR>
