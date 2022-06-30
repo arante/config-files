@@ -17,7 +17,6 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
-Plug 'suan/vim-instant-markdown', {'for': 'markdown'}
 Plug 'terryma/vim-multiple-cursors'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -73,8 +72,8 @@ set colorcolumn=80
 
 " ESLint as plugin manager
 let g:ale_fixers = {'javascript': ['prettier','eslint'], 'typescript': ['prettier','eslint']}
-let g:ale_sign_error = '❌'
-let g:ale_sign_warning = '⚠️'
+"let g:ale_sign_error = '❌'
+"let g:ale_sign_warning = '⚠️'
 let g:ale_fix_on_save = 1
 
 "
