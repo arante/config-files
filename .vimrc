@@ -22,17 +22,30 @@ Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'mileszs/ack.vim'
+Plug 'haishanh/night-owl.vim'
 Plug 'ryanoasis/vim-devicons' " always load as the last one
 
 call plug#end()
 
-syntax on
+syntax on " enable syntax highlighting
+
 set number " enable line number
-set rnu " set it to relative
+set rnu " then set it to relative
+
 set background=dark
+
 "let base16colorspace=256
-set termguicolors
-colorscheme base16-oceanicnext
+
+" For Vim >= 8.0 and Neovim >= 0.1.5
+if (has('termguicolors'))
+  set termguicolors
+endif
+
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+colorscheme night-owl
+
+let g:lightline = {'colorscheme': 'nightowl'}
 
 filetype plugin on
 
