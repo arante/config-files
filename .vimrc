@@ -13,7 +13,6 @@ call plug#begin('~/.vim/plugged/')
 
 " Plugins
 Plug 'sheerun/vim-polyglot'
-Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'chriskempson/base16-vim'
 Plug 'vim-airline/vim-airline'
@@ -89,23 +88,6 @@ let g:ale_fixers = {'javascript': ['prettier','eslint'], 'typescript': ['prettie
 "let g:ale_sign_warning = '⚠️'
 let g:ale_fix_on_save = 1
 
-"
-" NERDTree Configs
-"
-
-" Show relative line numbers when NERDTree is used
-let g:NERDTreeShowLineNumbers=1
-autocmd BufEnter NERD_* setlocal rnu
-
-" Conveniently open/close nerdtree
-map <C-\> :NERDTreeToggle<CR>
-
-" Move side panel to the right
-let g:NERDTreeWinPos = "right"
-
-" Resize the NERDTree 40ndow size
-let g:NERDTreeWinSize=40
-
 " coc config
 let g:coc_global_extensions = [
   \ 'coc-snippets',
@@ -117,7 +99,7 @@ let g:coc_global_extensions = [
   \ 'coc-pyright',
   \ ]
 
-" ctrlp
+" ctrl-p
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 " opens search results in a window w/ links and highlight the matches
@@ -151,3 +133,5 @@ nnoremap <Leader>/ :Ack!<Space>
 nnoremap <silent> [q :cprevious<CR>
 nnoremap <silent> ]q :cnext<CR>
 
+" Set relative line number in netrw window
+let g:netrw_bufsettings = 'noma nomod nu nowrap ro nobl'
