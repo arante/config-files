@@ -1,22 +1,13 @@
 " .vimrc
-" Maintainer: Billy Arante <arantebillywilson@gmail.com>
+" Author: Billy Arante <arantebillywilson@gmail.com>
 " Created: 2022 Sep 15
-" Last Change: 2022 Sep 15
+" Last Change: 2022 Sep 19
 
 "
 " Third-party plugins
 "
 
 set nocompatible " required by vim-polyglot
-
-call plug#begin('~/.vim/plugged/')
-
-Plug 'haishanh/night-owl.vim'
-Plug 'vim-airline/vim-airline'
-Plug 'sheerun/vim-polyglot'
-Plug 'ctrlpvim/ctrlp.vim'
-
-call plug#end()
 
 "
 " Relative line numbers settings
