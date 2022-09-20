@@ -65,3 +65,16 @@ syntax on
 " Split below and to the right
 set splitbelow
 set splitright
+
+" Split navigations
+" Remaps pane navigation key bindings to Ctrl-h/j/k/l for efficiency.
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Overrides netrw's Ctrl+l function
+let g:netrw_usermaps = [["<C-l>", "MoveCursorToWindowOnTheRight"]]
+function! MoveCursorToWindowOnTheRight(islocal)
+  return "wincmd l"
+endfunction
