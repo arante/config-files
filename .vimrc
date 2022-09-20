@@ -1,7 +1,9 @@
 " .vimrc
 " Author: Billy Arante <arantebillywilson@gmail.com>
 " Created: 2022 Sep 15
-" Last Change: 2022 Sep 19
+" Last Change: 2022 Sep 20
+
+set encoding=utf-8
 
 "
 " Third-party plugins
@@ -52,3 +54,14 @@ set nowrap
 " Required by ctrlp.vim
 " Ignore files in .gitignore
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+" No to swap files
+set noswapfile
+
+" Enable highlight to all Python syntax
+let python_hightlight_all=1
+syntax on
+
+" Split below and to the right
+set splitbelow
+set splitright
