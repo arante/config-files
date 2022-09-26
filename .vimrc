@@ -78,3 +78,7 @@ let g:netrw_usermaps = [["<C-l>", "MoveCursorToWindowOnTheRight"]]
 function! MoveCursorToWindowOnTheRight(islocal)
   return "wincmd l"
 endfunction
+
+" Required by rainbow_parentheses.vim
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
