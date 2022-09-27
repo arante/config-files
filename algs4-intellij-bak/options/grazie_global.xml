@@ -1,0 +1,17 @@
+<application>
+  <component name="GraziConfig">
+    <option name="disabledGrammarStrategies">
+      <set>
+        <option value="tanvd.grazi:JAVA" />
+      </set>
+    </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.MASTERS_DISSERTATION_THESIS" />
+        <option value="LanguageTool.EN.GROUND_FIRST_FLOOR" />
+        <option value="LanguageTool.EN.SI_UNITS_OF_MEASUREMENT_ADJECTIVES_BRE" />
+        <option value="LanguageTool.EN.PASSIVE_VOICE" />
+      </set>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,196 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="hello" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RandomWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HelloWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HelloGoodbye.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Image">
+      <summary usageCount="5" lastUsed="1664106969623" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="14" lastUsed="1664272444103" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="1" lastUsed="1664108279541" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/HelloWorld.java" />
+      <option value="$USER_HOME$/.ideavimrc" />
+      <option value="$PROJECT_DIR$/HelloGoodbye.java" />
+      <option value="$PROJECT_DIR$/RandomWord.java" />
+    </changedPaths>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="14" lastUsage="1664272444103" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="1" lastUsage="1664108279541" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="showLigatures" value="true" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Application.HelloGoodbye" executorId="Run" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Terminal" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="hello-history1" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Commit" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Bookmarks" order="1" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" show_stripe_button="false" weight="0.3297568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="SpotBugs" order="6" />
+      <window_info anchor="bottom" id="Problems View" order="7" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4027182" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Services" order="10" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.3297568" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.25" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Terminal</value>
+      <value>Problems View</value>
+      <value>Build</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="120" width="665" height="567" key="#Notifications" timestamp="1664108136610">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="345" y="120" width="665" height="567" key="#Notifications/0.32.1366.736@0.32.1366.736" timestamp="1664108136610" />
+    <state width="1366" height="202" key="GridCell.Tab.0.bottom" timestamp="1664111125340">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.bottom/0.32.1366.736@0.32.1366.736" timestamp="1664111125340" />
+    <state width="1366" height="202" key="GridCell.Tab.0.center" timestamp="1664111125339">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.center/0.32.1366.736@0.32.1366.736" timestamp="1664111125339" />
+    <state width="1366" height="202" key="GridCell.Tab.0.left" timestamp="1664111125339">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.left/0.32.1366.736@0.32.1366.736" timestamp="1664111125339" />
+    <state width="1366" height="202" key="GridCell.Tab.0.right" timestamp="1664111125339">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state width="1366" height="202" key="GridCell.Tab.0.right/0.32.1366.736@0.32.1366.736" timestamp="1664111125339" />
+    <state x="1570" y="0" width="1022" height="736" key="SettingsEditor" timestamp="1664272874292">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state x="1570" y="0" key="SettingsEditor/0.32.1366.736/1366.0.1360.768@1366.0.1360.768" timestamp="1664272874292" />
+    <state x="205" y="32" width="1022" height="736" key="SettingsEditor/0.32.1366.736@0.32.1366.736" timestamp="1664193376842" />
+    <state x="1571" y="31" width="1022" height="737" key="SettingsEditor/1366.0.1366.768/0.32.1366.736@1366.0.1366.768" timestamp="1663903579730" />
+    <state x="346" y="109" width="672" height="659" key="search.everywhere.popup" timestamp="1664108364935">
+      <screen x="0" y="32" width="1366" height="736" />
+    </state>
+    <state x="346" y="109" width="672" height="659" key="search.everywhere.popup/0.32.1366.736@0.32.1366.736" timestamp="1664108364935" />
+    <state x="1712" y="80" width="672" height="687" key="search.everywhere.popup/1366.0.1366.768/0.32.1366.736@1366.0.1366.768" timestamp="1663906270277" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloGoodbye.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RandomWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

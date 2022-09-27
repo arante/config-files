@@ -1,0 +1,16 @@
+<application>
+  <component name="NotificationConfiguration" systemNotifications="false">
+    <notification groupId="Checkstyle IDEA Alerts" displayType="NONE" />
+    <notification groupId="FindBugs: Analysis Finished" displayType="NONE" shouldLog="false" />
+    <notification groupId="IDE and Plugin Updates" displayType="NONE" />
+    <notification groupId="ideavim" displayType="NONE" />
+    <notification groupId="Plugin Update Results" displayType="NONE" />
+    <notification groupId="Plugins AutoSwitch" displayType="NONE" />
+    <notification groupId="Plugins Suggestion" displayType="NONE" />
+    <notification groupId="Plugins updates" displayType="NONE" />
+    <notification groupId="Required Plugins" displayType="STICKY_BALLOON" />
+    <notification groupId="SpotBugs: Analysis Finished" displayType="NONE" shouldLog="false" />
+    <notification groupId="System shortcuts conflicts" displayType="NONE" />
+    <notification groupId="Tutorials" displayType="NONE" />
+  </component>
+</application>

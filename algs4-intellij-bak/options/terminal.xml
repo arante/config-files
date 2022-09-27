@@ -1,0 +1,7 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="bash" />
+    <option name="mySoundBell" value="false" />
+    <option name="myTabName" value="Terminal" />
+  </component>
+</application>

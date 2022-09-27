@@ -1,0 +1,92 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry encoding="base64">Mg==</entry>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/mnt/sdb1/Computer Programmer/Algorithms Part 1/Week 1/hello/HelloGoodbye.java" timestamp="1664111011418">
+        <mark key="[" line="15" column="40" />
+        <mark key="]" line="15" column="41" />
+        <mark key="." line="15" column="40" />
+        <mark key="^" line="15" column="41" />
+      </file>
+      <file name="/mnt/sdb1/ComputerProgrammer/Java/AlgorithmsPart1/Week1/hello/RandomWord.java" timestamp="1664196029123">
+        <mark key="[" line="12" column="45" />
+        <mark key="]" line="10" column="24" />
+        <mark key="." line="10" column="23" />
+        <mark key="^" line="10" column="24" />
+      </file>
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1664108305335">
+        <mark key="[" line="1" column="9" />
+        <mark key="]" line="1" column="19" />
+        <mark key="." line="1" column="18" />
+        <mark key="^" line="1" column="19" />
+      </file>
+      <file name="/" timestamp="1664193357270">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGl0ZW0pOwo=</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">MTg0Mg==</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">U3RyaW5nIGNoYW1waW9uOw==</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJFbnRlciAyIG5hbWVzIGFzIGFyZ3VtZW50cy4iKTsK</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGl0ZW0pOwo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0uZXhpdCgwKTsK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGUpOwo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgICAgICBjYXRjaCAoRXhjZXB0aW9uIGUpIHsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oYXJnc1sxXSk7Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

@@ -1,0 +1,138 @@
+<templateSet group="novice">
+  <template name="public static void main" value="public static void main(String[] args) {&#10;    $BODY$&#10;}" description="main method" toReformat="true" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="Integer.parseInt()" value="Integer.parseInt(args[$i$])" description="command-line integer" toReformat="true" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Double.parseDouble()" value="Double.parseDouble(args[$i$])" description="command-line double" toReformat="true" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ($INIT$; $CONTINUATION$; $INCREMENT$) {&#10;    $BODY$&#10;}" description="for loop" toReformat="true" toShortenFQNames="true">
+    <variable name="INIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTINUATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INCREMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="while" value="while ($CONDITION$) {&#10;    $BODY$&#10;}" description="while loop" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="do" value="do {&#10;    $BODY$&#10;} while($CONDITION$);" description="do-while loop" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($CONDITION$) {&#10;    $BODY$&#10;}" description="if statement" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="if-else" value="if ($CONDITION$) {&#10;    $BODY1$&#10;}&#10;else {&#10;    $BODY2$&#10;}" description="if-else statement" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Math.sqrt" value="Math.sqrt($ARGUMENT$)" description="square root" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Math.max" value="Math.max($ARG1$, $ARG2$)" description="max" toReformat="true" toShortenFQNames="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Math.min" value="Math.min($ARG1$, $ARG2$)" description="min" toReformat="true" toShortenFQNames="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="header" value="/******************************************************************************&#10; *  Name:    Katherine G. Johnson&#10; *  NetID:   kjohnson&#10; *  Precept: P00&#10; *&#10; *  Description:  Prints 'Hello, World' to the terminal window.&#10; *                By tradition, this is everyone's first program.&#10; *                Prof. Brian Kernighan initiated this tradition in 1974.&#10; *&#10; ******************************************************************************/&#10;&#10;" description="COS 126 header (no partner)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="main" value="public static void main(String[] args) {&#10;    $BODY$&#10;}" description="main method declaration" toReformat="true" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="throw IllegalArgumentException" value="throw new IllegalArgumentException(&quot;$MESSAGE$&quot;);" description="throw an IllegalArgumentException" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="throw NoSuchElement" value="throw new NoSuchElementException(&quot;$MESSAGE$&quot;);" description="throw a NoSuchElementException" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="throw RuntimeException" value="throw new RuntimeException(&quot;$MESSAGE$&quot;);" description="throw a RuntimeException" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="throw UnsupportedOperationException" value="throw new UnsupportedOperationException(&quot;$MESSAGE$&quot;);" description="throw an UnsupportedOperationException" toReformat="true" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Long.parseLong()" value="Long.parseLong(args[$i$])" description="command-line long integer" toReformat="true" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Math.abs" value="Math.abs($ARGUMENT$)" description="absolute value" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Math.log" value="Math.log($ARGUMENT$)" description="natural logarithm" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="Math.pow" value="Math.pow($ARG1$, $ARG2$)" description="power" toReformat="true" toShortenFQNames="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>

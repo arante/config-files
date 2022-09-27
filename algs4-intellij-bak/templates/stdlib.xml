@@ -1,0 +1,80 @@
+<templateSet group="stdlib">
+  <template name="System.out.println()" value="System.out.println($ARGUMENT$);" description="println" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="System.out.print()" value="System.out.print($ARGUMENT$);" description="print" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="StdOut.println()" value="StdOut.println($ARGUMENT$);" description="println" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="StdOut.printf()" value="StdOut.printf(&quot;$FORMAT_STRING$&quot;, $ARGS$);" description="printf" toReformat="true" toShortenFQNames="true">
+    <variable name="FORMAT_STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="StdOut.print()" value="StdOut.print($ARGUMENT$);" description="print" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGUMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="System.out.printf()" value="System.out.printf(&quot;$FORMAT_STRING$&quot;, $ARGS$);" description="printf" toReformat="true" toShortenFQNames="true">
+    <variable name="FORMAT_STRING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readInt()" value="StdIn.readInt();" description="read integer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readDouble()" value="StdIn.readDouble();" description="read double" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readString()" value="StdIn.readString();" description="read string" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readLine()" value="StdIn.readLine();" description="read line" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.isEmpty()" value="StdIn.isEmpty()" description="is empty" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.hasNextLine()" value="StdIn.hasNextLine()" description="has next line" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readAll()" value="StdIn.readAll();" description="read all" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="StdIn.readLong()" value="StdIn.readLong();" description="read long integer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>

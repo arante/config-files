@@ -1,0 +1,46 @@
+<application>
+  <component name="PostfixTemplatesSettings">
+    <option name="postfixTemplatesEnabled" value="false" />
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="arg" />
+            <option value="assert" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.CastExpressionPostfixTemplate#.cast" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.CastVarPostfixTemplate#.castvar" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ElseStatementPostfixTemplate#.else" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IfStatementPostfixTemplate#.if" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.inst" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.InstanceofExpressionPostfixTemplate#.instanceof" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IntroduceFieldPostfixTemplate#.field" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IntroduceVariablePostfixTemplate#.var" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.IsNullCheckPostfixTemplate#.null" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#!" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotExpressionPostfixTemplate#.not" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotNullCheckPostfixTemplate#.nn" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.NotNullCheckPostfixTemplate#.notnull" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.ParenthesizedExpressionPostfixTemplate#.par" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.StreamPostfixTemplate#.stream" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.SwitchStatementPostfixTemplate#.switch" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.TryStatementPostfixTemplate#.try" />
+            <option value="com.intellij.codeInsight.template.postfix.templates.TryWithResourcesPostfixTemplate#.twr" />
+            <option value="for" />
+            <option value="fori" />
+            <option value="format" />
+            <option value="forr" />
+            <option value="iter" />
+            <option value="lambda" />
+            <option value="opt" />
+            <option value="reqnonnull" />
+            <option value="return" />
+            <option value="sout" />
+            <option value="synchronized" />
+            <option value="throw" />
+            <option value="while" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>

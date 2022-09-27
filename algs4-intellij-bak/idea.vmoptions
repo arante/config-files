@@ -1,0 +1,5 @@
+-Xmx2048m
+-Djava.net.preferIPv4Stack=true
+-Djdk.attach.allowAttachSelf
+-Dconsole.encoding=UTF-8
+-XX:MaxJavaStackTraceDepth=10000

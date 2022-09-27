@@ -1,0 +1,12 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java" />
+    </blacklists>
+    <option id="java.enums" value="false" />
+    <option id="java.new.expr" value="false" />
+    <disabledLanguages>
+      <language id="JAVA" />
+    </disabledLanguages>
+  </component>
+</application>
