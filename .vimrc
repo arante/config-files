@@ -1,7 +1,7 @@
 " .vimrc
 " Author: Billy Arante <arantebillywilson@gmail.com>
 " Created: 2022 Sep 15
-" Last Change: 2022 Sep 20
+" Last Change: 2022 Nov 22
 
 set encoding=utf-8
 
@@ -82,3 +82,5 @@ endfunction
 " Required by rainbow_parentheses.vim
 let g:rainbow#max_level = 16
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+
+set cursorline
