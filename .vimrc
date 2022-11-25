@@ -1,13 +1,14 @@
 " .vimrc
+"
 " Author: Billy Arante <arantebillywilson@gmail.com>
 " Created: 2022 Sep 15
-" Last Change: 2022 Nov 22
+" Modified: 2022 Nov 25
 
 set encoding=utf-8
 
-"
 " Third-party plugins
 "
+" Note: Currently using the built-in Vim plugin management feature.
 
 set nocompatible " required by vim-polyglot
 
@@ -84,3 +85,6 @@ let g:rainbow#max_level = 16
 let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
 
 set cursorline
+
+" Indent guides
+"let g:indent_guides_enable_on_vim_startup = 1
