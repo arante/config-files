@@ -10,7 +10,8 @@ set encoding=utf-8
 "
 " Note: Currently using the built-in Vim plugin management feature.
 
-set nocompatible " required by vim-polyglot
+" vim-polyglot plugin
+set nocompatible
 
 "
 " Relative line numbers settings
@@ -80,11 +81,5 @@ function! MoveCursorToWindowOnTheRight(islocal)
   return "wincmd l"
 endfunction
 
-" Required by rainbow_parentheses.vim
-let g:rainbow#max_level = 16
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
-
+" Highlight current line
 set cursorline
-
-" Indent guides
-"let g:indent_guides_enable_on_vim_startup = 1
