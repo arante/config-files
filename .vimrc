@@ -83,3 +83,5 @@ endfunction
 
 " Highlight current line
 set cursorline
+
+au FileType markdown let g:indentLine_setConceal = 0
