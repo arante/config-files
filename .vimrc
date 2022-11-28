@@ -96,6 +96,9 @@ set cursorline
 " To avoid hiding markdown-related syntax
 au FileType markdown let g:indentLine_setConceal = 0
 
+" Space indented files
+let g:indentLine_char = '┊'
+
 " Tab indented files
 set list lcs=tab:\¦\  
 
