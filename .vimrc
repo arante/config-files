@@ -6,6 +6,10 @@
 
 set encoding=utf-8
 
+syntax on
+
+filetype plugin indent on
+
 "
 " Third-party plugins
 "
@@ -64,7 +68,6 @@ set noswapfile
 
 " Enable highlight to all Python syntax
 let python_hightlight_all=1
-syntax on
 
 " Split below and to the right
 set splitbelow
