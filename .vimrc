@@ -10,6 +10,13 @@ syntax on
 
 filetype plugin indent on
 
+" Overrides netrw's Ctrl+l function
+" BUG: This function seems to activate only after opening a file
+let g:netrw_usermaps = [["<C-l>", "MoveCursorToWindowOnTheRight"]]
+function! MoveCursorToWindowOnTheRight(islocal)
+  return "wincmd l"
+endfunction
+
 "
 " Third-party plugins
 "
@@ -80,12 +87,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Overrides netrw's Ctrl+l function
-let g:netrw_usermaps = [["<C-l>", "MoveCursorToWindowOnTheRight"]]
-function! MoveCursorToWindowOnTheRight(islocal)
-  return "wincmd l"
-endfunction
-
 " Highlight current line
 set cursorline
 
@@ -93,8 +94,13 @@ set cursorline
 " indentLine configs
 "
 
-" To avoid hiding markdown-related syntax
+" To avoid concealing in markdown files
 au FileType markdown let g:indentLine_setConceal = 0
+"let g:markdown_syntax_conceal=0
+
+" To avoid concealing in json files
+"au FileType json let g:indentLine_setConceal = 0
+let g:vim_json_conceal=0
 
 " Space indented files
 let g:indentLine_char = '┊'
