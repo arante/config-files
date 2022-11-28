@@ -13,12 +13,6 @@ set encoding=utf-8
 "
 
 "
-" vim-polyglot configs
-"
-
-set nocompatible
-
-"
 " Relative line numbers configs
 "
 
@@ -98,6 +92,9 @@ set cursorline
 
 " To avoid hiding markdown-related syntax
 au FileType markdown let g:indentLine_setConceal = 0
+
+" Tab indented files
+set list lcs=tab:\¦\  
 
 " ack.vim --- {{{
 
