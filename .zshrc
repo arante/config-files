@@ -116,3 +116,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # cd to expansion HDD
 alias home="cd /mnt/sdb1"
+
+# devmoji
+source ~/.dotfiles/git/aliases
