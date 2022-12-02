@@ -54,6 +54,21 @@ set autoindent
 set smartindent
 " Several indentations is being handled by vim-polyglot based on filetype
 
+" C/C++ specifics
+autocmd FileType c,cpp setlocal ts=8 sts=8 sw=8
+
+" Python specifics
+autocmd FileType py setlocal sw=4 ts=4 sts=4
+
+" Makefile specifics
+autocmd FileType make setlocal noexpandtab
+
+" Other languages
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+set expandtab
+
 "
 " Others
 "
@@ -84,6 +99,7 @@ set splitright
 " Remaps pane navigation key bindings to Ctrl-h/j/k/l for efficiency.
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
+" C-l will only work once a file is activated. 
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
@@ -106,7 +122,7 @@ let g:vim_json_conceal=0
 let g:indentLine_char = '┊'
 
 " Tab indented files
-set list lcs=tab:\¦\  
+"set list lcs=tab:\¦\  
 
 " ack.vim --- {{{
 
