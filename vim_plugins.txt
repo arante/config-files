@@ -1,5 +1,8 @@
+git@github.com:mileszs/ack.vim.git
+git@github.com:neoclide/coc.nvim.git
 git@github.com:ctrlpvim/ctrlp.vim.git
+git@github.com:Yggdroot/indentLine.git
 git@github.com:haishanh/night-owl.vim.git
 git@github.com:vim-airline/vim-airline.git
+git@github.com:tpope/vim-commentary.git
 git@github.com:sheerun/vim-polyglot.git
-git@github.com:junegunn/rainbow_parentheses.vim.git
