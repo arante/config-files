@@ -1,0 +1,8 @@
+git@github.com:mileszs/ack.vim.git,ack.vim
+git@github.com:neoclide/coc.nvim.git,coc.vim
+git@github.com:ctrlpvim/ctrlp.vim.git,ctrlp.vim
+git@github.com:Yggdroot/indentLine.git,indentLine
+git@github.com:haishanh/night-owl.vim.git,night-owl.vim
+git@github.com:vim-airline/vim-airline.git,vim-airline
+git@github.com:tpope/vim-commentary.git,vim-commentary
+git@github.com:sheerun/vim-polyglot.git,vim-polyglot
