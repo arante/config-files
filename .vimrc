@@ -54,11 +54,14 @@ set autoindent
 set smartindent
 " Several indentations is being handled by vim-polyglot based on filetype
 
-" C/C++ specifics
-autocmd FileType c,cpp setlocal ts=8 sts=8 sw=8
+" C++ specifics
+autocmd FileType cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
+
+" C specifics
+autocmd FileType c setlocal tabstop=8 softtabstop=8 shiftwidth=8
 
 " Python specifics
-autocmd FileType py setlocal sw=4 ts=4 sts=4
+autocmd FileType py setlocal tabstop=4 softtabstop=4 shiftwidth=4
 
 " Makefile specifics
 autocmd FileType make setlocal noexpandtab
