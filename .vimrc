@@ -159,3 +159,8 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" Allow JSON with comments
+augroup JsonToJsonc
+  autocmd! FileType json set filetype=jsonc
+augroup END
