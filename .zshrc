@@ -100,10 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+if [[ -x "$(command -v nvim)" ]]; then alias vim='nvim'; fi
 export EDITOR="vim"
 export VISUAL="vim"
-
-if [[ -x "$(command -v vimx)" ]]; then alias vim='vimx'; fi
 
 # nvm configs
 export NVM_DIR="$HOME/.nvm"
