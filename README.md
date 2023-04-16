@@ -12,6 +12,12 @@ A collection of configs (configuration files) for my software dev't machines.
    - .profile
    - .czrc
 
+### .kitty.conf
+
+```bash
+ln -s ~/.dotfiles/kitty.conf ~/.config/kitty/
+```
+
 2. Download all of the vim plugins using the `install_vins.py` script and the
    `vins.csv`.
 

@@ -118,3 +118,14 @@ alias home="cd /mnt/sdb1"
 
 # devmoji
 source ~/.dotfiles/git/aliases
+
+# In MacOS, enable access of Visual Studio Code in the terminal.
+#export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# pnpm
+export PNPM_HOME="/Users/abw/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
