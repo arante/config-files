@@ -1,3 +1,7 @@
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # Python programming settings
 export PATH=$PATH:/home/$USER/.local/bin
 
