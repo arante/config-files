@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ -x "$(command -v vimx)" ]]; then alias vim='vimx'; fi
+if [[ -x "$(command -v nvim)" ]]; then alias vim='nvim'; fi
 export EDITOR="vim"
 export VISUAL="vim"
 
@@ -129,3 +129,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# added by Webi for pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
