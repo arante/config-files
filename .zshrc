@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell-custom"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -133,3 +133,13 @@ esac
 # added by Webi for pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+#
+# XAMPP directory
+#
+export LAMPP_DIR="/opt/lampp"
+export PATH="$LAMPP_DIR:$PATH"
+
+# php, mysql binaries
+export LAMPP_BIN="/opt/lampp/bin"
+export PATH="$LAMPP_BIN:$PATH"
