@@ -32,6 +32,10 @@ Create a symbolic link for the `kitty-themes` config.
 ln -s ~/.dotfiles/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/kitty-themes/themes/
 ```
 
+```bash
+ln -s ~/.config/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/theme.conf
+```
+
 2. Download all of the vim plugins using the `install_vins.py` script and the
    `vins.csv`.
 
