@@ -12,7 +12,15 @@ A collection of configs (configuration files) for my software dev't machines.
    - .profile
    - .czrc
 
-### .kitty.conf
+### `zsh`
+
+```bash
+ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme robbyrussell-custom.zsh-theme
+```
+
+### `kitty`
+
+Create a symbolic link for the `kitty` config.
 
 ```bash
 ln -s ~/.dotfiles/kitty.conf ~/.config/kitty/
