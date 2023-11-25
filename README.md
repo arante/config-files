@@ -15,7 +15,7 @@ A collection of configs (configuration files) for my software dev't machines.
 ### `zsh`
 
 ```bash
-ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme robbyrussell-custom.zsh-theme
+ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell-custom.zsh-theme
 ```
 
 ### `kitty`
