@@ -29,7 +29,7 @@ ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell
 Create a symbolic link for the `kitty` config.
 
 ```bash
-ln -s ~/.dotfiles/kitty.conf ~/.config/kitty/
+ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/
 ```
 
 Create a symbolic link for the `kitty-themes` config.
