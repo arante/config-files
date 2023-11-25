@@ -4,19 +4,38 @@ A collection of configs (configuration files) for my software dev't machines.
 
 ## Setup
 
-0. Install `pyenv`:
+Install `pyenv`:
 
 ```bash
 curl -sS https://webi.sh/pyenv | sh
 ```
 
-1. Create symbolic links for the following configs:
-   - .zshrc
-   - .gitconfig
-   - .vimrc
-   - .tmux.conf
-   - .profile
-   - .czrc
+Clone the `nvim` repository for `nvim` configurations.
+
+```bash
+git clone git@github.com:arantebw/nvim.git
+```
+
+Install `packer`, the `nvim` package manager.
+
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+Install the needed `nvim` packages:
+
+```bash
+:MasonInstall <plugin>
+```
+
+Create symbolic links for the following configs:
+  - `.zshrc`
+  - `.gitconfig` 
+  - `.vimrc`
+  - `.tmux.conf`
+  - `.profile`
+  - `.czrc`
 
 ### `zsh`
 
@@ -42,16 +61,17 @@ ln -s ~/.dotfiles/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/
 ln -s ~/.config/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/theme.conf
 ```
 
-2. Download all of the vim plugins using the `install_vins.py` script and the
+Download all of the vim plugins using the `install_vins.py` script and the
    `vins.csv`.
 
-3. Clone the `tmux-resurrect` and `tmux-continuum` at `home/OpenSourceAdvocate/.*`.
+Clone the `tmux-resurrect` and `tmux-continuum` at `home/OpenSourceAdvocate/.*`.
 
-4. Switch to the _appropriate_ branch for the machine.
+Switch to the _appropriate_ branch for the machine, if necessary.
 
 ## Commands
 
-- How to create a symbolic link?
-  ```
-  ln -s <target_file> <symlink_destination>
-  ```
+How to create a symbolic link?
+
+```bash
+ln -s <target_file> <symlink_destination>
+```
