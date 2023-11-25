@@ -4,6 +4,12 @@ A collection of configs (configuration files) for my software dev't machines.
 
 ## Setup
 
+0. Install `pyenv`:
+
+```bash
+curl -sS https://webi.sh/pyenv | sh
+```
+
 1. Create symbolic links for the following configs:
    - .zshrc
    - .gitconfig
