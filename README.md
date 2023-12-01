@@ -64,7 +64,14 @@ ln -s ~/.config/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/th
 Download all of the vim plugins using the `install_vins.py` script and the
    `vins.csv`.
 
-Clone the `tmux-resurrect` and `tmux-continuum` at `home/OpenSourceAdvocate/.*`.
+### `tmux`
+
+Clone the `tmux-resurrect` and `tmux-continuum`, reboot the machine afterwards:
+
+```bash
+git clone https://github.com/tmux-plugins/tmux-continuum ~/.config/tmux-continuum
+git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux-resurrect
+```
 
 Switch to the _appropriate_ branch for the machine, if necessary.
 
