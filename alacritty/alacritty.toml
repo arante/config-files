@@ -1,4 +1,5 @@
 [font]
 normal = { family = "Fira Code", style = "Regular" }
-size = 10.0 # Gallardo, Mustang
+size = 9.0 # Gallardo
+#size = 10.0 # Gallardo
 #size = 14.0 # Spider
