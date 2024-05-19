@@ -10,3 +10,4 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/home/$USER/go/bin
 
 unclutter --timeout 1 &
+. "$HOME/.cargo/env"
