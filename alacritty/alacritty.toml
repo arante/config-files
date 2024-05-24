@@ -4,3 +4,6 @@ bold = { family = "FiraCode Nerd Font", style = "Bold" }
 size = 9.0   # Gallardo
 #size = 10.0 # Mustang
 #size = 14.0 # Spider
+
+[env]
+TERM = "xterm-256color"
