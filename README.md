@@ -50,6 +50,16 @@ git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux-resurrec
 
 Switch to the _appropriate_ branch for the machine, if necessary.
 
+### pyenv
+
+`curl` and install `pyenv`. The tool to manage multiple versions of `python`.
+
+```bash
+cur https://pyenv.run | bash
+```
+
+**NOTE:** Check the [docs](https://github.com/pyenv/pyenv?tab=readme-ov-file#automatic-installer) for reference.
+
 ## Commands
 
 How to create a symbolic link?
