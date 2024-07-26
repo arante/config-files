@@ -4,13 +4,16 @@ A collection of configs (configuration files) for my software dev't machines.
 
 ## Setup
 
-Create symbolic links for the following configs:
-  - `.zshrc`
-  - `.gitconfig` 
-  - `.vimrc`
-  - `.tmux.conf`
-  - `.profile`
-  - `.czrc`
+Create symbolic links for the following tools of their respective configuration
+files:
+
+- `zsh`
+- `kitty`
+- `git`
+- `vim`
+- `tmux`
+- `.profile`
+- `.czrc`
 
 ### `zsh`
 
@@ -20,24 +23,20 @@ ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell
 
 ### `kitty`
 
-Create a symbolic link for the `kitty` config.
+Create a symbolic link for the `kitty` configuration file.
 
 ```bash
 ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/
 ```
 
-Create a symbolic link for the `kitty-themes` config.
+Create a symbolic link for the `kitty` color scheme configuration file.
 
 ```bash
-ln -s ~/.dotfiles/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/kitty-themes/themes/
-```
-
-```bash
-ln -s ~/.config/kitty/kitty-themes/themes/Solarized_Dark.conf ~/.config/kitty/theme.conf
+ln -s ~/.config/kitty/kitty-themes/themes/solarized-dark.conf ~/.config/kitty/theme.conf
 ```
 
 Download all of the vim plugins using the `install_vins.py` script and the
-   `vins.csv`.
+`vins.csv`.
 
 ### `tmux`
 
