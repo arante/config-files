@@ -3,7 +3,7 @@
 [interactive]
 	diffFilter = diff-so-fancy --patch
 [init]
-	defaultBranch = master
+	defaultBranch = main
 	templatedir = ~/.dotfiles/git/templates/
 [user]
 	name = Billy Arante
