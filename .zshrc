@@ -123,7 +123,7 @@ source ~/.dotfiles/git/aliases
 #export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # pnpm
-export PNPM_HOME="/Users/abw/Library/pnpm"
+export PNPM_HOME="/home/abw/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
