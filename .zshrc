@@ -130,7 +130,9 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+#
 # pyenv
+#
 
 # Load pyenv automatically by appending
 # the following to
@@ -153,9 +155,24 @@ eval "$(pyenv virtualenv-init -)"
 #
 # XAMPP directory
 #
+
 export LAMPP_DIR="/opt/lampp"
 export PATH="$LAMPP_DIR:$PATH"
 
 # php, mysql binaries
 export LAMPP_BIN="/opt/lampp/bin"
 export PATH="$LAMPP_BIN:$PATH"
+
+#
+# Commitizen
+#
+
+# Creates a `git commit` alias for `git cz`
+git() {
+  if [ "$1" = "commit" ]; then
+    shift
+    command git cz "$@"
+  else
+    command git "$@"
+  fi
+}
