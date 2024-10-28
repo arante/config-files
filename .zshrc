@@ -122,7 +122,9 @@ source ~/.dotfiles/git/aliases
 # In MacOS, enable access of Visual Studio Code in the terminal.
 #export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+#
 # pnpm
+#
 export PNPM_HOME="/home/abw/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
@@ -176,3 +178,5 @@ git() {
     command git "$@"
   fi
 }
+
+export PATH="/home/abw/.skript:$PATH"
