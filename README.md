@@ -7,21 +7,33 @@ A collection of configs (configuration files) for my software dev't machines.
 Create symbolic links for the following tools of their respective configuration
 files:
 
-- `zsh`
-- `kitty`
 - `git`
-- `vim`
+- `kitty`
+- `i3`
 - `tmux`
-- `.profile`
-- `.czrc`
+- `vim`
+- `zsh`
+- .profile
+- .czrc
 
-### `zsh`
+### zsh
 
 ```bash
 ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell-custom.zsh-theme
 ```
 
-### `kitty`
+### i3
+
+NOTE: Upon setting a `i3`, ignore the prompt of creating a new config file for
+the machine, instead to this.
+
+Create a symbolic link for the `i3` configuration file.
+
+```console
+ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config
+```
+
+### kitty
 
 Create a symbolic link for the `kitty` configuration file.
 
@@ -38,7 +50,7 @@ ln -s ~/.config/kitty/kitty-themes/themes/solarized-dark.conf ~/.config/kitty/th
 Download all of the vim plugins using the `install_vins.py` script and the
 `vins.csv`.
 
-### `tmux`
+### tmux
 
 Clone the `tmux-resurrect` and `tmux-continuum`, reboot the machine afterwards:
 
