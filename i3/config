@@ -188,3 +188,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+# Set extended monitor display as primary and left-side of built-in display
+exec --no-startup-id xrandr --output HDMI-1 --primary --left-of eDP-1
