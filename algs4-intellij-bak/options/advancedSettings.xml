@@ -1,9 +1,0 @@
-<application>
-  <component name="AdvancedSettings">
-    <option name="settings">
-      <map>
-        <entry key="localHistory.daysToKeep" value="120" />
-      </map>
-    </option>
-  </component>
-</application>
