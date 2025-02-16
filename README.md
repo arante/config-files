@@ -18,7 +18,7 @@ files:
 
 ### zsh
 
-```bash
+```console
 ln -s ~/.dotfiles/robbyrussell-custom.zsh-theme ~/.oh-my-zsh/themes/robbyrussell-custom.zsh-theme
 ```
 
@@ -37,13 +37,13 @@ ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config
 
 Create a symbolic link for the `kitty` configuration file.
 
-```bash
+```console
 ln -s ~/.dotfiles/kitty/kitty.conf ~/.config/kitty/
 ```
 
 Create a symbolic link for the `kitty` color scheme configuration file.
 
-```bash
+```console
 ln -s ~/.config/kitty/kitty-themes/themes/solarized-dark.conf ~/.config/kitty/theme.conf
 ```
 
@@ -54,7 +54,7 @@ Download all of the vim plugins using the `install_vins.py` script and the
 
 Clone the `tmux-resurrect` and `tmux-continuum`, reboot the machine afterwards:
 
-```bash
+```console
 git clone https://github.com/tmux-plugins/tmux-continuum ~/.config/tmux-continuum
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/.config/tmux-resurrect
 ```
@@ -65,7 +65,7 @@ Switch to the _appropriate_ branch for the machine, if necessary.
 
 `curl` and install `pyenv`. The tool to manage multiple versions of `python`.
 
-```bash
+```console
 cur https://pyenv.run | bash
 ```
 
@@ -75,6 +75,6 @@ cur https://pyenv.run | bash
 
 How to create a symbolic link?
 
-```bash
+```console
 ln -s <target_file> <symlink_destination>
 ```
