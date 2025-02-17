@@ -191,3 +191,6 @@ bar {
 
 # Set extended monitor display as primary and left-side of built-in display
 exec --no-startup-id xrandr --output HDMI-1 --primary --left-of eDP-1
+
+# Locks the screen
+bindsym $mod+x exec i3lock
