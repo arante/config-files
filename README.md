@@ -33,6 +33,18 @@ Create a symbolic link for the `i3` configuration file.
 ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config
 ```
 
+#### Must haves for i3 setup
+
+`flameshot` for screenshots
+
+```console
+sudo dnf install flameshot
+```
+
+```console
+flameshot gui
+```
+
 ### kitty
 
 Create a symbolic link for the `kitty` configuration file.
