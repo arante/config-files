@@ -35,7 +35,7 @@ ln -s $HOME/.dotfiles/i3/config $HOME/.config/i3/config
 
 #### Must haves for i3 setup
 
-`flameshot` for screenshots
+##### `flameshot` for screenshots
 
 ```console
 sudo dnf install flameshot
@@ -43,6 +43,16 @@ sudo dnf install flameshot
 
 ```console
 flameshot gui
+```
+
+##### `simplescreenrecorder` for screen captures
+
+```console
+sudo dnf install simplescreenrecorder
+```
+
+```console
+simplescreenrecorder
 ```
 
 ### kitty
